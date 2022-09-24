@@ -1,8 +1,8 @@
-//import third-party nodejs module Connect
-const connect = require("connect");
+//import express
+import express from "express";
 
 //instaniate app-server
-const app = connect();
+const app = express();
 
 //middleware
 function helloIndex(req, res, next) {
