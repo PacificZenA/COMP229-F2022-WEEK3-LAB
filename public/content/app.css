@@ -1,3 +1,12 @@
+/* File name: app.css 
+Student Name: Alex Tang
+StudentID: 301238850
+Date: Oct/5/2022
+*/
+
+div {
+  padding-left: 50px;
+}
 #container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 380px);
