@@ -40,3 +40,7 @@ app.use("/", indexRouter);
 // app.listen(3000);
 // console.log("Server running at http://localhost:3000");
 export default app;
+
+function myFunction() {
+  window.location.href = "http://localhost:3000/home";
+}

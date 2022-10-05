@@ -5,4 +5,7 @@
   window.addEventListener("load", Start);
 })();
 
-document.getElementById("submit").addEventListener("click", redirect);
+//Function for redirecting to home page
+function myFunction() {
+  window.location.href = "http://localhost:3000/home";
+}
