@@ -4,3 +4,5 @@
   }
   window.addEventListener("load", Start);
 })();
+
+document.getElementById("submit").addEventListener("click", redirect);
