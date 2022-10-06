@@ -7,11 +7,14 @@ Date: Oct/5/2022
 div {
   padding-left: 50px;
 }
+
+/*Making container's content align horizontal and euqal*/
 #container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 380px);
+  grid-template-columns: repeat(auto-fit, 370px);
   gap: 15px;
 }
+/* adjust image size and add shadow */
 #container img {
   height: 200px;
   width: 320px;
@@ -25,6 +28,7 @@ div {
   padding-top: 10px;
 }
 
+/* Text area in contact form */
 input[type="text"],
 select,
 textarea {
@@ -33,19 +37,9 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
 }
 
-input[type="submit"] {
-  background-color: #04aa6d;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
+/* Contact form */
 .contact_Container {
   margin: auto;
   width: 680px;
