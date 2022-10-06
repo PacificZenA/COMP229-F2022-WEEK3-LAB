@@ -36,8 +36,7 @@ app.use(
 
 app.use("/", indexRouter);
 
-var port = process.env.port || 3000;
 //run app
-app.listen(port);
+app.listen(3000);
 
 console.log("Server running at http://localhost:3000");
